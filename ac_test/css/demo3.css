@@ -1,0 +1,46 @@
+.scene {
+	background: #FC5F12;
+}
+
+.scene path:first-child {
+	fill: #FF902A;
+}
+
+.scene path:nth-child(2) {
+	fill: #FF902A;
+}
+
+.scene path:nth-child(3) {
+	fill: #FFBA32;
+}
+
+.scene path:nth-child(4) {
+	fill: #FFBA32;
+}
+
+/*
+.scene path:nth-child(5) {
+	fill: #BFD730;
+}*/
+/*
+.scene path:nth-child(6) {
+	fill: #2c31b0;
+}
+
+.scene path:nth-child(7) {
+	fill: #262689;
+}*/
+
+.title {
+	color: #fff;
+	font-size: 6vw;
+	font-weight: 400;
+	z-index: 1000;
+	font-family: "Arapey", serif;
+	pointer-events: none;
+}
+
+.iframe {
+	position: relative;
+	z-index: 1;
+}
